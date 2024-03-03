@@ -5,16 +5,16 @@ export default createRouter({
   routes: [
     {
       path: "/:pathMatch(.*)*",
-      component: () => import("../src/components/MainComponents/ErrorFour.vue"),
+      component: () => import("./components/MainComponents/ErrorFour.vue"),
     },
     {
       path: "/one",
-      component: () => import("../src/components/СomponetsForPages/Search.vue"),
+      component: () => import("./components/СomponetsForPages/Search.vue"),
     },
     {
       path: "/Quetion",
       component: () =>
-        import("../src/components/MainComponents/QuetionComp.vue"),
+        import("./components/MainComponents/QuetionComp.vue"),
     },
     {
       path: "/Main",
